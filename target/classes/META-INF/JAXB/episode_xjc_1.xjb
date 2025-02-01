@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Ce fichier a été généré par l'implémentation de référence JavaTM Architecture for XML Binding (JAXB), v2.3.2 
+Voir <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Toute modification apportée à ce fichier sera perdue lors de la recompilation du schéma source. 
+Généré le : 2024.12.13 à 02:30:03 AM EST 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://spring.io/guides/gs-producing-web-service">
+    <schemaBindings map="false">
+      <package name="io.spring.guides.gs_producing_web_service"/>
+    </schemaBindings>
+    <bindings scd="tns:getCountryRequest">
+      <class ref="io.spring.guides.gs_producing_web_service.GetCountryRequest"/>
+    </bindings>
+    <bindings scd="tns:getCountryResponse">
+      <class ref="io.spring.guides.gs_producing_web_service.GetCountryResponse"/>
+    </bindings>
+    <bindings scd="~tns:country">
+      <class ref="io.spring.guides.gs_producing_web_service.Country"/>
+    </bindings>
+    <bindings scd="~tns:currency">
+      <typesafeEnumClass ref="io.spring.guides.gs_producing_web_service.Currency"/>
+    </bindings>
+  </bindings>
+</bindings>
+
